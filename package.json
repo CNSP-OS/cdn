@@ -1,0 +1,28 @@
+{
+  "name": "cnsp-image-server",
+  "version": "1.0.0",
+  "description": "CNSP image server code to host image files for CNSP!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "fs": "0.0.1-security",
+    "limit": "0.0.1",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
